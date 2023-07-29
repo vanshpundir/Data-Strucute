@@ -25,6 +25,7 @@ class Graph:
 if __name__ == "__main__":
     graph = Graph()
 
+
     # Adding vertices
     graph.add_vertex("A")
     graph.add_vertex("B")
