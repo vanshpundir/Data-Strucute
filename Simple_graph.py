@@ -6,6 +6,7 @@ class Graph:
         if vertex not in self.graph:
             self.graph[vertex] = []
 
+
     def add_edge(self, vertex1, vertex2):
         if vertex1 in self.graph and vertex2 in self.graph:
             if vertex1 not in self.graph[vertex2]:
